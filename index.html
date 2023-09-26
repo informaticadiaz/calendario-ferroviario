@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calendario</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <header class="grid">
+            <button id="prevMonthBtn">Mes Anterior</button>
+            <span id="monthAndYear"></span>
+            <button id="nextMonthBtn">Mes Siguiente</button>
+        </header>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                    <th>Domingo</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+                <!-- Aquí se generará el contenido del calendario con JavaScript -->
+            </tbody>
+        </table>
+        <div id="event-container"></div>
+    </div>
+</body>
+
+</html>

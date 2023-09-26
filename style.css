@@ -1,0 +1,82 @@
+    body {
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #333;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 80%;
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    /* Estilos para la tabla */
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* Divide en tres partes iguales */
+        align-items: center;
+        /* Alinea verticalmente los elementos al centro */
+        gap: 10px;
+        /* Espacio entre los elementos */
+        /* Espaciado interior */
+        width: 80%;
+        margin: 0 auto;
+        /*min-width: 400px; /* Ancho mínimo */
+        /*max-width: 700px; /* Ancho máximo */
+        
+    }
+
+    /*
+.table {
+    border-collapse: collapse;
+    max-width: 400px; // Ancho máximo para un diseño responsivo
+     // Centra la tabla en la página
+    margin-top: 20px;
+}*/
+    .table {
+        margin-top: 20px;
+        display: inline-table;
+
+    }
+
+    .title {
+        margin: 20px;
+        margin: 0 auto;
+    }
+
+    /* Estilos para las celdas de la tabla */
+    td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    /* Estilo para el encabezado de la tabla (días de la semana) */
+    th {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    /* Estilos para las celdas que contienen los números de los días */
+    td:not(:empty) {
+        background-color: #f2f2f2;
+    }
+
+    /* Estilo para resaltar el día actual */
+    td[data-isToday="true"] {
+        background-color: #ffcc00;
+        font-weight: bold;
+    }
+
+    /* Estilo para días seleccionados o eventos */
+    td.selected {
+        background-color: #3498db;
+        color: #fff;
+        font-weight: bold;
+    }
