@@ -440,13 +440,13 @@ function handleDateClick(event) {
         if (eventInfo) {
             const { descripcion, imagen } = eventInfo;
             eventContainer.innerHTML = `
-                <p>Fecha seleccionada: ${formattedDate}</p>
+                
                 <p>${descripcion}</p>
                 <img src="${imagen}" alt="Evento" class="img-calendario">
             `;
         } else {
             eventContainer.innerHTML = `
-                <p>Fecha seleccionada: ${formattedDate}</p>
+                
                 <p>No hay eventos para esta fecha.</p>
             `;
         }
