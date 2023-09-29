@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendario</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-
-    <div class="container center">
-        <header><h2 class="tx-center">Calendario Ferroviario</h2></header>
-        <div class="grid center wd-80">
-            <button id="prevMonthBtn" class="pd-10">Mes Anterior</button>
-            <span id="monthAndYear" class="pd-10"></span>
-            <button id="nextMonthBtn" class="pd-10">Mes Siguiente</button>
-        </div>        
-
-        <table class="table center wd-80 vh-40">
+    <div class="container">
+        <header class="grid">
+            <button id="prevMonthBtn">Mes Anterior</button>
+            <span id="monthAndYear"></span>
+            <button id="nextMonthBtn">Mes Siguiente</button>
+        </header>
+        <table class="table">
             <thead>
                 <tr>
                     <th>Lunes</th>
@@ -33,8 +31,7 @@
                 <!-- Aquí se generará el contenido del calendario con JavaScript -->
             </tbody>
         </table>
-        <div id="event-container" class="tx-center"></div>
-    
+        <div id="event-container"></div>
     </div>
 </body>
 
