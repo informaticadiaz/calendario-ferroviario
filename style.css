@@ -30,8 +30,6 @@
   
     margin-top: 20px;
     
-    
-    
 }
 
 .img-calendario{
@@ -89,7 +87,21 @@ td.selected {
         width: 100%;
     }
     .container{
-        width: 100%;
+        width: 100%;       
+    }
+    td {
+        text-align: center;
         
-      }
+        border: 1px solid #ccc;
+    }
+    
+    /* Estilo para el encabezado de la tabla (días de la semana) */
+    th {
+        background-color: #333;
+        color: #fff;
+        
+        font-weight: bold;
+    }
+
 }
+
