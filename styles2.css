@@ -1,0 +1,124 @@
+/* Colores */
+:root {
+    --color-primario: #3498db;
+    --color-secundario: #e74c3c;
+    --color-fondo: #f2f2f2;
+  }
+  
+  /*
+  -
+  -
+   Espaciado y Dimensiones 
+  -
+  -
+  */
+  
+  /*
+   padding 
+  */
+  
+  .pd-5 {
+    padding: 5px;
+  }
+
+  .pd-10 {
+    padding: 10px;
+  }
+  .pd-20{
+    padding: 20px;
+  }
+  .pd-30{
+    padding: 30px;
+  }
+  
+  /*
+   altura 
+  */
+
+  .vh-20 {
+    height: 20vh;
+  }
+
+  .vh-30 {
+    height: 30vh;
+  }
+
+  .vh-40 {
+    height: 40vh;
+  }
+
+  .vh-50 {
+    height: 50vh;
+  }
+  
+  /*
+    ancho
+  */
+  .wd-60 {
+    width: 60%;
+  }
+
+  .wd-70 {
+    width: 70%;
+  }
+
+  .wd-80{
+    width: 80%;
+  }
+  .wd-100 {
+    width: 100%;
+  }
+  
+  /*
+   Botones 
+  */
+  .btn {
+    /* Estilo base para botones */
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-primario {
+    /* Botón con color primario */
+    background-color: var(--color-primario);
+    color: #fff;
+  }
+  
+  .btn-secundario {
+    /* Botón con color secundario */
+    background-color: var(--color-secundario);
+    color: #fff;
+  }
+  
+  /* Encabezados */
+  .header {
+    /* Estilo base para encabezados */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-destacado {
+    /* Encabezado destacado con color primario */
+    color: var(--color-primario);
+  }
+  
+  /* Tarjetas */
+  .card {
+    /* Estilo base para tarjetas */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Otras clases */
+  /* ... */
+  
+  /* Etc. */
+  /* ... */
+  

@@ -10,17 +10,14 @@
     padding: 10px;
 }
 
-.wd-80{
-    width: 80%;
-}
-
 .vh-40{
     height: 40vh;
 }
-.container{
-  width: 80%;
-  background-color: #fff;
+
+.wd-100{
+    width: 100%;
 }
+
 
 .tx-center{
     text-align: center;
@@ -82,26 +79,9 @@ td.selected {
     font-weight: bold;
 }
 
-@media (max-width: 700px) {
-    .wd-80 {
-        width: 100%;
-    }
-    .container{
-        width: 100%;       
-    }
-    td {
-        text-align: center;
-        
-        border: 1px solid #ccc;
-    }
-    
-    /* Estilo para el encabezado de la tabla (días de la semana) */
-    th {
-        background-color: #333;
-        color: #fff;
-        
-        font-weight: bold;
-    }
-
+@media (min-width: 700px) {
+    .wd-80{
+        width: 80%;
+      }
 }
 
